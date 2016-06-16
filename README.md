@@ -1,6 +1,6 @@
 ##Cat Clicker - Version 2
 
-Version 2 was completed using the organizational library **Knockout.js** to implement the MVVM design pattern.<br><br>
+Version 2 is a refactored Version 1 using the organizational library **Knockout.js** to implement the MVVM design pattern.<br><br>
 
 **Udacity - JavaScript Design Patterns**
 
