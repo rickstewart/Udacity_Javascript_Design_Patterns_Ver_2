@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cat Clicker</title>
+    <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Roboto:400,300,500|Courgette'
+          rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/prefixfree.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div id="outer">
+    <div id="center-div">
+        <div id="header">
+            <h1>JavaScript Design Patterns</h1>
+            <span><h2>Cat Clicker</h2></span><span id="udacity-link">Udacity</span>
+        </div>
+        <div id="sidebar-left">
+            <h2>Catalog</h2>
+        </div>
+        <div id="content-right">
+            <div id="kitty-name"></div>
+            <div id="kitty-image"></div>
+        </div> <!-- END content-right -->
+    </div> <!-- END center-div -->
+    <div id="admin-area">
+        <span id="admin-button">admin</span>
+        <span id="admin-label" class="span">edit cat details:</span>
+        <span class="span">Name <input type="text" name="name" class="inputs" id="name-input"></span>
+        <span class="span">Image <input type="text" name="image" class="inputs" id="image-input"></span>
+        <span class="span">Count <input type="text" name="count" class="inputs" id="count-input"></span>
+        <span class="span" id="save">save</span>
+        <span><img id="close" src="images/glyphicons-208-remove-2.png"></span>
+    </div>
+</div> <!-- END outer -->
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
